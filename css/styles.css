@@ -1,7 +1,39 @@
+* {
+  margin: 0 auto;
+}
+
 p {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: gray;
+  background-color: red;
+  height: 20vh;
+
+}
+
+
+footer {
+  background-color: #8d99ae;
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+  width: 100vw;
+  text-align: center;
+  font-size: 30px;
+}
+
+button {
+  border-radius: 0 !important;
+  width: 15vw;
+}
+
+.navbar {
+  background-color: #8d99ae
+}
+
+p {
+  color: white;
+  background-color: #2b2d42;
+  height: 60vh;
 }
