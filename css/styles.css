@@ -9,13 +9,15 @@ p {
 header {
   background-image: url(images/ferrari.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center ;
   background-repeat:no-repeat;
   padding-top: 10vh;
   height: 50vh;
-
 }
 
+.location{
+  color: white;
+}
 
 footer {
   background-color: #8d99ae;
@@ -36,8 +38,21 @@ button {
   background-color: #8d99ae
 }
 
-p {
+main {
   color: white;
   background-color: #2b2d42;
   height: 60vh;
+}
+
+.location{
+  text-align: center;
+  justify-content: center;
+  font-size:150%;
+  padding: 5vh;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  box-sizing: border-box;
 }
