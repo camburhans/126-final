@@ -78,6 +78,15 @@
     box-sizing: border-box;
   }
 
-  .accordian-body {
-    background-color: darkgrey !important;
+  .bg-light.rounded.p-3.mb-4 {
+    background-color: #8d99ae !important;
+    text-align: center;
+  }
+
+  .mb-0 {
+    background-color: #8d99ae;
+  }
+
+  .accordion-body {
+    background-color: #8d99ae;
   }
