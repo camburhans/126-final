@@ -30,9 +30,37 @@
 <main>
   <div class="location">
     <form>
+      
+
       <label for="location">Location</label><br>
-      <input type="text" id="location" name="location"><br>
+      <input type="text" id="location" name="location" placeholder="Enter your location" required><br>
+
+      <label for="pickup">Select Pick-Up Date</label><br>
+      <input type="date" id="pickup" name="pickup" placeholder="Enter desired pick-up date" required><br>
+
+      <label for="dropoff">Select Drop-off Date</label><br>
+      <input type="date" id="dropoff" name="dropoff" placeholder="Enter desired drop-off date" required><br>
+
+      <p>Preferance in Vehicle Type: </p>
+      <form>
+        <input type="radio" id="sedan" value="Sedan">
+        <label for="sedan">Sedan</label>
+
+        <input type="radio" id="coupe" value="Coupe">
+        <label for="coupe">Coupe</label>
+
+        <input type="radio" id="truck" value="truck">
+        <label for="truck">Truck</label>
+
+        <input type="radio" id="EV" value="EV">
+        <label for="EV">EV</label>
+      </form>
+
     </form>
+
+    <a href="html/search.html">
+      <input type="submit" value="submit" required>
+    </a>
   </div>
 
 </main>

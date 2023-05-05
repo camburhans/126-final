@@ -56,3 +56,49 @@ input[type=text] {
   padding: 12px 20px;
   box-sizing: border-box;
 }
+
+.location{
+  padding: 20px;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+label[for="location"]{
+  font-family: 'arial';
+  color:#e85d04;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+label[for="pickup"]{
+  font-family: 'arial';
+  color:#e85d04;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+label[for="dropoff"]{
+  font-family: 'arial';
+  color:#e85d04;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+input[type=submit]{
+  text-align: center;
+  padding:10px 20px;
+  border-radius: 4px;
+  background-color: #8D99ae;
+  color:#e85d04;
+}
+
+input[type=submit]:hover{
+  color:white;
+  background-color: #ef233c;
+}
