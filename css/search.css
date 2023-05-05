@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
 * {
 margin: 0 auto;
+font-family:'Staatliches';
 }
   
 p {
@@ -41,11 +45,30 @@ button {
 main {
     color: white;
     background-color: #2b2d42;
-    height: 60vh;
+    height: auto;
 }
 
-.bg-light.rounded.p-3.mb-4 {
-    background-color: #8d99ae !important;
-    text-align: center;
-    
+.row{
+    height: auto;
+}
+
+button{
+  text-align: center;
+  padding:10px 20px;
+  border-radius: 4px;
+  background-color: #8D99ae;
+  color:#e85d04;
+}
+
+button:hover{
+  color:white;
+  background-color: #ef233c;
+}
+
+h1{
+     color:#e85d04;
+}
+
+footer{
+    position:relative;
 }
