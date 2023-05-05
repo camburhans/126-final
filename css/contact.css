@@ -55,4 +55,54 @@
     width: 50%;
     padding: 12px 20px;
     box-sizing: border-box;
+    border-radius:4px;
+  }
+
+  input[type=submit]{
+    text-align: center;
+    padding:10px 20px;
+    border-radius: 4px;
+    background-color: #8D99ae;
+    color:#e85d04;
+  }
+
+  input[type=submit]:hover{
+    color:white;
+    background-color: #ef233c;
+  }
+
+  label[for="firstName"]{
+    font-family: 'arial';
+    color:#e85d04;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  label[for="lastName"]{
+    font-family: 'arial';
+    color:#e85d04;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  label[for="state"]{
+    font-family: 'arial';
+    color:#e85d04;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+  }
+
+  label[for="message"]{
+    font-family: 'arial';
+    color:#e85d04;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
   }
