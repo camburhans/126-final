@@ -40,7 +40,7 @@ footer {
   background-color: #8d99ae;
   position: relative;
   bottom: 0;
-  height: 10vh;
+  height: 18vh;
   width: 100vw;
   text-align: center;
   font-size: 30px;
@@ -54,7 +54,7 @@ footer {
 main {
   color: white;
   background-color: #2b2d42;
-  height: 60vh;
+  height: 85vh;
 }
 
 .location{
