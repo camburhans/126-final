@@ -24,7 +24,7 @@ header {
 
 footer {
   background-color: #8d99ae;
-  position: fixed;
+  position: relative;
   bottom: 0;
   height: 10vh;
   width: 100vw;
