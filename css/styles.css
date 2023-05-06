@@ -57,6 +57,10 @@ main {
   height: 85vh;
 }
 
+button {
+  width: 15vw;
+}
+
 .location{
   text-align: center;
   justify-content: center;

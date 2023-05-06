@@ -55,6 +55,10 @@
     background-color: #2b2d42;
     height: 100vh;
   }
+
+  button {
+    width: 15vw;
+  }
   
   .location{
     text-align: center;
@@ -131,6 +135,7 @@
       height: 70vh;
       padding: 0;
     }
+  
     
     footer {
       height: 20vh;

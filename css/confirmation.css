@@ -58,6 +58,9 @@ main {
     height: 50vh;
     text-align: center;
 }
+button {
+  width: 15vw;
+}
 
 button{
   text-align: center;
