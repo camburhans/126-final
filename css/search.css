@@ -50,7 +50,7 @@ footer {
   
 button {
     border-radius: 0 !important;
-    width: 15vw;
+    width: auto;
 }
   
 .navbar {
