@@ -46,10 +46,6 @@ footer {
   font-size: 30px;
 }
 
-button {
-  border-radius: 0 !important;
-  width: 15vw;
-}
 
 .navbar {
   background-color: #8d99ae
@@ -118,4 +114,82 @@ input[type=submit]{
 input[type=submit]:hover{
   color:white;
   background-color: #ef233c;
+}
+
+@media screen and (max-height: 844px) {
+
+  header {
+    height: 25vh;
+  }
+  
+  main {
+    height: 50vh;
+    padding: 0;
+  }
+  
+  footer {
+    height: 20vh;
+  }
+
+  label[for="firstName"]{
+    font-family: 'Staatliches';
+    color:#e85d04;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  label[for="lastName"]{
+    font-family: 'Staatliches';
+    color:#e85d04;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  label[for="state"]{
+    font-family: 'Staatliches';
+    color:#e85d04;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  label[for="message"]{
+    font-family: 'Staatliches';
+    color:#e85d04;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  input[type=text] {
+    width: 50%;
+    height: 30px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius:4px;
+    font-size: 70%;
+  }
+  textarea {
+    width: 80%;
+    height: 80px;
+  }
+
+  input[type=submit]{
+    text-align: center;
+    padding:10px 20px;
+    border-radius: 4px;
+    background-color: #8D99ae;
+    color:#e85d04;
+  }
+
+  input[type=submit]:hover{
+    color:white;
+    background-color: #ef233c;
+  }
 }

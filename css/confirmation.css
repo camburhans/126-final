@@ -46,11 +46,7 @@ footer {
     text-align: center;
     font-size: 30px;
 }
-  
-button {
-    border-radius: 0 !important;
-    width: 15vw;
-}
+
   
 .navbar {
     background-color: #8d99ae
@@ -60,6 +56,7 @@ main {
     color: white;
     background-color: #2b2d42;
     height: 50vh;
+    text-align: center;
 }
 
 button{
@@ -81,4 +78,19 @@ h1{
 
 footer{
     position:relative;
+}
+
+@media screen and (max-height: 844px) {
+  header {
+    height: 30vh;
+  }
+  
+  main {
+    height: 40vh;
+    padding: 0;
+  }
+  
+  footer {
+    height: 25vh;
+  }
 }
